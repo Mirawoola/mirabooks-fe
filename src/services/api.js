@@ -7,7 +7,7 @@
  * or add a secret password (auth token), we do it in one place.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://mirabooks-be.onrender.com';
 
 /**
  * Make an authenticated API request.
